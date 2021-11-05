@@ -1,0 +1,110 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+ }
+ 
+ .container {
+   width: 100%;
+   height: 100vh;
+   padding: 13%;
+   display: flex;
+ }
+ 
+ .content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ 
+ .blue {
+   background-color: #37495f;
+ }
+ 
+ .green {
+   background-color: #65c271;
+ }
+ 
+ .red {
+   background-color: #da604b;
+ }
+ 
+ .orange {
+   background-color: #c76026;
+ }
+ 
+ .purple {
+   background-color: #9166b5;
+ }
+ 
+ .buttons {
+   position: fixed;
+   top: 35%;
+   right: 2%;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .buttons a div {
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: 1px solid white;
+   margin-bottom: 10px;
+ }
+ 
+ .content button,
+ button {
+   margin: auto;
+   padding: 22px;
+   color: white;
+   font-size: 42px;
+   border: 1px solid white;
+   border-radius: 8px;
+   background-color: transparent;
+   width: 677px;
+   height: 89px;
+ }
+ 
+ .content p {
+   color: white;
+ }
+ 
+ .blue button:hover {
+   color: #37495f;
+   border: 1px solid #37495f;
+ }
+ 
+ .green button:hover {
+   color: #65c271;
+   border: 1px solid #65c271;
+ }
+ 
+ .red button:hover {
+   color: #da604b;
+   border: 1px solid #da604b;
+ }
+ 
+ .orange button:hover {
+   color: #c76026;
+   border: 1px solid #c76026;
+ }
+ 
+ .purple button:hover {
+   color: #9166b5;
+   border: 1px solid #9166b5;
+ }
+ 
+ .blue button:hover,
+ .green button:hover,
+ .red button:hover,
+ .orange button:hover,
+ .purple button:hover {
+   cursor: pointer;
+   background-color: white;
+ }
+ 
+ .content button {
+   margin: 20px 0px;
+ }
